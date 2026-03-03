@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms task</title>
+</head>
+<body><form action="" style="width: 400px;">
+    <fieldset>
+        <legend>sample html forms</legend>
+    
+    <label for="user">username:</label>
+    <input type="text" id="user"><br><br>
+    <label for="password">password</label>
+    <input type="password" id="password"><br><br>
+    <label for="city">city of Employment:</label>
+    <input type="text" id="city"><br><br>
+
+    <label for="web">web server:</label>
+    <select name="course" id="web">
+
+        <option value="" selected disabled><B>-choose a server-</B></option>
+
+    <option value="Human Resources">Human Resources</option>
+    <option value="Development">Development</option>
+    <option value="Accounting">Accounting</option>
+    <option value="sales">sales</option>
+     </select><br><br>
+     <table>
+<tr>
+     <td><label>Please specify<br> your role:</label></td>
+     <td>
+    <input type="radio" id="Admin" name=" role" value="Admin">Admin
+     <br>
+     
+    <input type="radio" id="engineer" name=" role" value="engineer">engineer
+     <br>
+    <input type="radio" id="manager" name=" role" value="manager">manager
+     <br>
+    <input type="radio" id="Guest" name=" role" value="guest">guest
+     <br>
+     </td>
+    </tr> 
+    </table>
+<br>
+     <table>
+<tr>
+     <td><label>Single Sign-on<br> to the following:</label></td>
+     <td>
+    <input type="checkbox" id="mail" name=" Sign-on" value="mail">mail
+     <br>
+     
+    <input type="checkbox" id="payroll" name=" Sign-on" value="payroll">payroll
+     <br>
+    <input type="checkbox" id="Self-service" name=" Sign-on" value="Self-service">self-service
+     <br>
+    
+     </td>
+    </tr> 
+    </table>
+    
+    <input type="submit">
+    <input type="reset">
+    
+    </fieldset>
+    </form>
+</body>
+</html>
